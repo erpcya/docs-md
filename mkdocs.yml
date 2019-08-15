@@ -1,0 +1,118 @@
+site_name: E.R.P. Consultores y Asociados - Documentación
+
+
+
+nav:
+
+    - Inicio: 'index.md'
+
+    - Localización Venezuela:
+        - Resumen de Funcionalidad: 'lve/index.md'
+        - Impresora Fiscal:
+            - Características de la Impresión Fiscal: 'lve/fiscal-printer/index.md'
+            - Impresora Fiscal VMax 220:
+                - Configuración de Impresora Fiscal (VMax 220): 'lve/fiscal-printer/setup-vmax-220.md'
+                - Errores comunes Impresora Fiscal VMax 220: 'lve/fiscal-printer/commons-errors-fiscal-printer.md'
+                - Generar Reportes Manualmente: 'lve/fiscal-printer/manual-reports.md'
+        - Documentación:
+            - Codificación Estándar:
+                - Producto: 'lve/standard-coding/product/product-coding.md'
+    - ADempiere:
+        - Migración:
+            - Pack In: 'adempiere/migration/packin.md'
+        - Procesos Estándar:
+            - Socio del Negocio:
+                - Proveedor: 'adempiere/standard-processes/master/business-partner/provider/partner-provider.md'
+        - Verticales:
+            - Manejo de Préstamos:
+                - Requerimientos: 'adempiere/vertical/loan-management/loan-requirements.md'
+                - Ejecución de Préstamo: 'adempiere/vertical/loan-management/loan-running.md'
+                - Préstamo: 'adempiere/vertical/loan-management/loan.md'
+                - Generar Selección de Pagos: 'adempiere/vertical/loan-management/generate-payment-selection.md'
+                - Generar Pago: 'adempiere/vertical/loan-management/generate-payment.md'
+                - Generar Factura: 'adempiere/vertical/loan-management/generate-invoice.md'
+    - Procedimiento Estándar ERP:
+        - Acordar una Reunión: 'general/procedures/schedule-a-meeting.md'
+        - Documentar una Tarea / Error: 'general/procedures/support-doc.md'
+        - Desarrollo de Solicitud: 'general/procedures/customer-review.md'
+markdown_extensions:
+  - admonition
+  - markdown.extensions.admonition:
+  - markdown.extensions.smarty:
+      smart_quotes: false
+  - pymdownx.betterem:
+  - markdown.extensions.attr_list:
+  - markdown.extensions.def_list:
+  - markdown.extensions.tables:
+  - markdown.extensions.abbr:
+  - markdown.extensions.footnotes:
+  - pymdownx.extrarawhtml:
+  - pymdownx.superfences:
+      preserve_tabs: true
+      custom_fences:
+        - name: flow
+          class: uml-flowchart
+          format: !!python/name:pymdownx.superfences.fence_code_format
+        - name: sequence
+          class: uml-sequence-diagram
+          format: !!python/name:pymdownx.superfences.fence_code_format
+        - name: math
+          class: arithmatex
+          format: !!python/name:pymdownx.arithmatex.fence_mathjax_format
+  - pymdownx.highlight:
+      css_class: codehilite
+      extend_pygments_lang:
+        - name: php-inline
+          lang: php
+          options:
+            startinline: true
+        - name: pycon3
+          lang: pycon
+          options:
+            python3: true
+      linenums_style: pymdownx-inline
+  - pymdownx.inlinehilite:
+      custom_inline:
+        - name: math
+          class: arithmatex
+          format: !!python/name:pymdownx.arithmatex.inline_mathjax_format
+  - pymdownx.magiclink:
+      repo_url_shortener: true
+      repo_url_shorthand: true
+      social_url_shorthand: true
+      user: facelessuser
+      repo: pymdown-extensions
+  - pymdownx.tilde:
+  - pymdownx.caret:
+  - pymdownx.smartsymbols:
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_png
+  - pymdownx.escapeall:
+      hardbreak: True
+      nbsp: True
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.progressbar:
+  - pymdownx.arithmatex:
+  - pymdownx.mark:
+  - pymdownx.striphtml:
+  - pymdownx.snippets:
+      base_path: docs/src/markdown/_snippets
+  - pymdownx.keys:
+      separator: "\uff0b"
+  - pymdownx.details:
+theme:
+  name: null
+  custom_dir: 'material/'
+  language: 'es'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  logo: 'img/logo.png'
+  feature:
+    tabs: false
+
+copyright: 'CC BY-NC-ND 4.0 2012 - 2019 E.R.P Consultores y Asociados'
