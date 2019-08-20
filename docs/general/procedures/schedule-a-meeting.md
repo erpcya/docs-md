@@ -1,7 +1,7 @@
 # **Acordar una Reunión**
 ![Convert Video](resources/meeting.png)
 ## **Justificación**
-Constantemente el cliente demanda requerimientos nuevos o soporte que viene acompañados de muchas inquietudes de parte de la persona de sistemas que atiende la solicitud. En algunos casos es de vital importancia tener una pequeña reunión para aclarar dudas y poder estimar el alcance de ciertos requerimientos.
+Constantemente el cliente demanda requerimientos nuevos o soporte que viene acompañados de muchas inquietudes de parte de la persona de sistemas que atiende la solicitud. En algunos casos es de vital importancia tener una pequeña reunión para aclarar dudas y poder estimar el alcance de ciertos requerimientos. 
 
 ## **¿Cuando se debe agendar una reunión?**
 Las reuniones deben tomarse como una herramienta para aclarar cualquier duda relacionada con el requerimiento del cliente. **En ese sentido sólo se debe agendar una reunión si ya existe un requerimiento formal escrito**.
