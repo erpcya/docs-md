@@ -59,6 +59,7 @@ Posterior a la verificación del requerimiento, [Verificación de Definición de
  - **I** (Informed) – **Informado:** Persona que debe estar informada de los avances y ejecución de la tarea, aunque no necesariamente participa en la ejecución.
 
 #### **Cambiar el estado de la tarea**
+
 Cuando el cliente realiza un requerimiento en el gestor de proyecto [Open Project](http://project.erpya.com/), por defecto el estado de la tarea previamente definida es creada con el estado inicial **"En Espera"**, sin embargo, el estado que indica al cliente que su requerimiento se encuentra en una siguiente fase dependerá del consultor que atiende el requerimiento, para ello el consultor de [E.R.P. Consultores y Asociados, C.A.](http://erpya.com/) está obligado a cambiar el estado actual, **En Espera** al estado **Por Definir**.
 
 El estado en cuestión denota al cliente que su solicitud se encuentra en la fase de modelado que le brindará posteriormente una solución estimada, este proceso de definición por parte de [E.R.P. Consultores y Asociados, C.A.](http://erpya.com/) tiene una duración no mayor de 32 horas hábiles, previendo la definición de un proceso complejo y tomando en cuenta las prioridades o urgencias del cliente.
