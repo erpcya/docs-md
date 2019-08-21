@@ -1,5 +1,5 @@
 
-Comprende todo lo relacionado con la emisión de documentos a través de un dispositivo fiscal (Impresora), el mismo puede conectarse a ADempiere por medio de un controlador desarrollado por E.R.P. Consultores y Asociados, C.A.
+Comprende todo lo relacionado con la emisión de documentos a través de un dispositivo fiscal (Impresora), el mismo puede conectarse a ADempiere por medio de un controlador desarrollado por [E.R.P. Consultores y Asociados, C.A.](http://erpya.com)
 
 Actualmente se tiene soporte para las marcas:
 
