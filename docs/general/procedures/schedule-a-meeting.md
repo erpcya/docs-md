@@ -47,5 +47,3 @@ Para el caso de [E.R.P. Consultores y Asociados, C.A.](http://erpya.com/) es con
 
 
 **Como escriben los autores de Reinicia, cada minuto que evitas pasar en una reunión es un minuto en el que puedes hacer trabajo de verdad. O, mejor, en irte a casa a tu hora.**
-
-http://erpya.com/
