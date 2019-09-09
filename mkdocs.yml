@@ -23,6 +23,8 @@ nav:
         - Procesos Estándar:
             - Socio del Negocio:
                 - Proveedor: 'adempiere/standard-processes/master/business-partner/provider/partner-provider.md'
+            - Órdenes de Compra:
+                - Orden de Compra: 'adempiere/standard-processes/purchase-order/direct-order/purchase-order.md'
             - Cuentas por Cobrar (CxC):
                 - CxC en Dolares: 'adempiere/standard-processes/invoice-customer/foreign-currency/foreign-currency.md'
         - Verticales:
