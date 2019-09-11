@@ -31,6 +31,7 @@ nav:
                 - Gestión de Compras:
                     - Orden de Compra: 'adempiere/standard-processes/purchase-order/direct-order/purchase-order.md'
                     - Documentos por Pagar: 'adempiere/standard-processes/invoice/invoice.md'
+                    - Recepción de Productos: 'adempiere/standard-processes/material-receipt/receipt.md'
         - Verticales:
             - Manejo de Préstamos:
                 - Requerimientos: 'adempiere/vertical/loan-management/loan-requirements.md'
