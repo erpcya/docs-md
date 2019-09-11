@@ -82,7 +82,7 @@ En ADempiere es posible generar una orden de compra directa, la presente documen
 
     !!! warning "**Importante**"
 
-        Recuerde guardar el registro de la ventana con el icono "**Guardar**" de la barra de herramientas antes de cambiar a la pestaña "*Línea Orden Compra**".
+        Recuerde guardar el registro de la ventana con el icono "**Guardar**" de la barra de herramientas antes de cambiar a la pestaña "**Línea Orden Compra**".
 
 1. Seleccione la pestaña "**Línea Orden Compra**" y proceda al llenado de los campos correspondientes.
 
@@ -90,7 +90,7 @@ En ADempiere es posible generar una orden de compra directa, la presente documen
 
     !!! warning "**Importante**"
 
-        Los campos "**Compañía**", "**Organización**", "**Orden de Compra**", "**Socio del Negocio**" y "Dirección del Socio del Negocio**", vienen precargados de la ventana principal "**Orden de Compra**".
+        Los campos "**Compañía**", "**Organización**", "**Orden de Compra**", "**Socio del Negocio**" y "**Dirección del Socio del Negocio**", vienen precargados de la ventana principal "**Orden de Compra**".
 
 1. Seleccione el producto en el campo "**Producto**".
 
@@ -114,8 +114,8 @@ En ADempiere es posible generar una orden de compra directa, la presente documen
 
     !!! warning "**Importante**"
 
-        Recuerde guardar el registro de la ventana con el icono "**Guardar**" de la barra de herramientas antes de cambiar a la pestaña "**Orden Compra**".
+        Recuerde guardar el registro de la pestaña "**Línea Orden Compra**" con el icono "**Guardar**" de la barra de herramientas antes de cambiar a la ventana principal "**Orden de Compra**".
 
-1. Regrese a la ventana principal "Orden de Compra" y seleccione la opción "**Completar**" ubicado en el inferior del documento. 
+1. Regrese a la ventana principal "**Orden de Compra**" y seleccione la opción "**Completar**" ubicada en el inferior del documento. 
 
     ![Opción Completar](../resources/ventanaycompletar.png "Opción Completar")
