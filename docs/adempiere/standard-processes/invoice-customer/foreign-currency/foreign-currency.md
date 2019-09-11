@@ -16,9 +16,13 @@ A continuación se explican cada uno de los pasos a seguir para elaborar el proc
 
     ![Registro Nuevo](../resources/nuevo.png "Registro Nuevo")
 
-1. Selecione el tipo de documento en el campo "**Tipo de Documento**".
+1. Seleccione la organización en el campo "**Organización**".
 
-    ![Campo Tipo de Documento](../resources/tipodoc.png "Campo Tipo de Documento")
+    ![Campo Organización](../resources/organizacion.png "Campo Organización")
+
+1. Selecione el tipo de documento destino en el campo "**Tipo de Documento Destino**".
+
+    ![Campo Tipo de Documento Destino](../resources/tipodoc.png "Campo Tipo de Documento Destino")
 
 1. Seleccione el socio del negocio en el campo "**Socio del Negocio**", este debe ser el mismo socio del negocio de la factura a la cual se le aplicará el ajuste de crédito.
 
@@ -65,6 +69,10 @@ A continuación se explican cada uno de los pasos a seguir para elaborar el proc
 1. Seleccione el socio del negocio en el campo "**Socio del Negocio**".
 
     ![Campo Socio del Negocio](../resources/asigsocio.png "Campo Socio del Negocio")
+
+1. Selccione la organización en el campo "**Organización**".
+
+    ![Campo Organización](../resources/asiorganizacion.png "Campo Organización")
 
 1. Seleccione la moneda en el campo "**Moneda**".
 
@@ -132,7 +140,11 @@ A continuación se explican cada uno de los pasos a seguir para elaborar el proc
 
     ![Campo Monto](../resources/montocaja.png "Campo Monto")
 
-1. Regrese a la pestaña "**Reembolso Diario de Caja Chica**" y seleccione la opción "**Completar**".
+1. Seleccione el impuesto en el campo "**Impuesto**". 
+
+    ![Campo Impuesto](../resources/impuesto.png "Campo Impuesto")
+
+1. Regrese a la ventana principal "**Reembolso Diario de Caja Chica**" y seleccione la opción "**Completar**".
 
     ![Opción Completar](../resources/completarcaja.png "Opción Completar")
 
