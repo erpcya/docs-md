@@ -20,15 +20,15 @@ nav:
     - ADempiere:
         - Migración:
             - Pack In: 'adempiere/migration/packin.md'
-        - Procesos Estándar Versión 3.7.0:
-            - Gestión de Ventas:
-                - Cuentas por Cobrar (CxC):
-                    - CxC en Dolares: 'adempiere/standard-processes/invoice-customer/foreign-currency/foreign-currency.md'
-        - Procesos Estándar Versión 3.9.2:
-            - Socio del Negocio:
-                - Proveedor: 'adempiere/standard-processes/master/business-partner/provider/partner-provider.md'
-            - Gestión de Compras:
-                - Órdenes de Compra:
+        - Procesos Estándar:
+            - Versión 3.7.0:
+                - Gestión de Ventas:
+                    - Cuentas por Cobrar (CxC):
+                        - CxC en Dolares: 'adempiere/standard-processes/invoice-customer/foreign-currency/foreign-currency.md'
+            - Versión 3.9.2:
+                - Socio del Negocio:
+                    - Proveedor: 'adempiere/standard-processes/master/business-partner/provider/partner-provider.md'
+                - Gestión de Compras:
                     - Orden de Compra: 'adempiere/standard-processes/purchase-order/direct-order/purchase-order.md'
         - Verticales:
             - Manejo de Préstamos:
