@@ -41,6 +41,7 @@ nav:
                 - Generar Pago: 'adempiere/vertical/loan-management/generate-payment.md'
                 - Generar Factura: 'adempiere/vertical/loan-management/generate-invoice.md'
     - Procedimiento Estándar ERP:
+        - OpenProject: 'general/procedures/openproject/openproject.md'
         - Acordar una Reunión: 'general/procedures/schedule-a-meeting.md'
         - Documentar una Tarea / Error: 'general/procedures/support-doc.md'
         - Desarrollo de Solicitud: 'general/procedures/customer-review.md'
