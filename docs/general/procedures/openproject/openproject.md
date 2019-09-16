@@ -84,20 +84,20 @@ El usuario puede conocer la identificación o número de la tarea, el estatus, e
 
 ## **Campos Importantes**
 
-1. **ID** Representa el número de la tarea.
+1. "**ID**": Representa el número de la tarea.
 
-1. **Asunto** Representa el título de la tarea.
+1. "**Asunto**": Representa el título de la tarea.
 
-1. **Tipo** Indica si es una fase o una tarea.
+1. "**Tipo**": Indica si es una fase o una tarea.
 
-1. **Estado** Indica en que estado se encuentra la tarea.
+1. "**Estado**": Indica en que estado se encuentra la tarea.
 
-1. **Autor** Indica el nombre de la persona que creó la tarea.
+1. "**Autor**": Indica el nombre de la persona que creó la tarea.
 
-1. **Asignado a** Indica el nombre la persona que esta realizando o va a realizar la tarea.
+1. "**Asignado a**": Indica el nombre la persona que esta realizando o va a realizar la tarea.
 
-1. **Actualizada el** Indica la fecha de la última actualización de la tarea.
+1. "**Actualizada el**": Indica la fecha de la última actualización de la tarea.
 
-1. **Fecha de Finalización** Indica la fecha tope en la que se debe entregar la tarea.
+1. **Fecha de Finalización:** Indica la fecha tope en la que se debe entregar la tarea.
 
-1. **Tiempo Empleado** Indica el tiempo que se ha empleado para realizar la tarea.
+1. **Tiempo Empleado:** Indica el tiempo que se ha empleado para realizar la tarea.
