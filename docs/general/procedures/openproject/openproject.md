@@ -44,7 +44,7 @@ El presente documento elaborado por la empresa ERPyA pretende explicar de forma 
 
 ## **Menú Principal** 
 
-1. **Resumen** Al seleccionar un proyecto se muestra el menú principal para desplazarce por todas las opciones que tiene disponible dicho proyecto, el mismo se compone de lo siguiente: 
+1. **Resumen:** Al seleccionar un proyecto se muestra el menú principal para desplazarce por todas las opciones que tiene disponible dicho proyecto, el mismo se compone de lo siguiente: 
 
     ![Menú Principal de OpenProject](../resources/proyecto.png "Menú Principal de OpenProject")
 
@@ -62,9 +62,9 @@ El presente documento elaborado por la empresa ERPyA pretende explicar de forma 
 
 Las fases en la herramienta de OpenProject se refieren a todas aquellas fases que deben cumplir los proyectos para su elaboración existosa, las mismas se componen de tareas, las tareas son actividades que se deben realizar para lograr una fase, una tarea se crea a partir de cierta información necesaria, misma que es expresada en sus diferentes campos. El ciclo de vida de una tarea depende de lo sencilla o compleja que esta sea, existen dos tipos de tareas en OpenProject que son las tareas padre y las tareas hijas. 
 
-1. **Tareas Padre** Las tareas padre son todas aquellas tareas que se deben realizar para elaborar una fase del proyecto exitosamente.
+1. **Tareas Padre:** Las tareas padre son todas aquellas tareas que se deben realizar para elaborar una fase del proyecto exitosamente.
 
-1. **Tareas Hija** Las tareas hija son todas aquellas tareas necesarias para realizar una tarea padre correctamente.
+1. **Tareas Hija:** Las tareas hija son todas aquellas tareas necesarias para realizar una tarea padre correctamente.
 
 ## **Uso de OpenProject**
 
