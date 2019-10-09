@@ -5,3 +5,4 @@ Esta documentación está dirigida a los clientes de [E.R.P. Consultores y Asoci
 La misma será actualizada periódicamente en función de las nuevas versiones de ADempiere.
 
 Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de esta herramienta.
+Nada
