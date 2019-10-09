@@ -2,7 +2,7 @@
 
 ## **Definición de Socio de Negocio Cliente**
 
-Un socio del negocio cliente es aquella persona, empresa u organización que compra o adquiere los productos y servicios que necesita para su consumo o producción, a continuación se define el proceso para la creación de socio del negocio cliente en ADempiere.
+Un socio del negocio cliente es aquella persona, empresa u organización, que compra o adquiere los productos y servicios que necesita para su consumo o producción, a continuación se define el proceso para la creación de socio del negocio cliente en ADempiere.
 
 ### **Proceso de Registro del Socio del Negocio**
 
