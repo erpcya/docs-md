@@ -2,11 +2,11 @@
 
 ## **Preámbulo**
 
-El presente documento elaborado por la empresa ERPyA pretende explicar a los usuarios los cambios realizados al esquema de descuentos de ADempiere, agregando el campo moneda y permitiendo con esto que se apliquen descuentos a los productos registrados en el esquema al momento de generar la orden de venta, dependiendo de la moneda que se le asocie al mismo. 
+El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para configurar el esquema de descuentos en la versión 3.7.0 de ADempiere en la localización Venezuela, agregando el campo moneda y permitiendo con esto que se apliquen descuentos a los productos registrados en el esquema al momento de generar la orden de venta, dependiendo de la moneda que se le asocie al mismo. 
 
 ## **Esquema de Descuento**
 
-La empresa ERPyA en beneficio del cliente modificó el estándar del esquema de descuentos en ADempiere, posibilitando con ello que un mismo producto pueda ser registrado en el esquema de descuentos varias veces con diferentes monedas asociadas, es decir, varias líneas de registro de un mismo producto con diferentes monedas; a continuación se explica el comportamiento del esquema de descuentos en ADempiere.
+ERPyA en beneficio del cliente modificó el estándar del esquema de descuentos en ADempiere, posibilitando con ello que un mismo producto pueda ser registrado en el esquema de descuentos varias veces con diferentes monedas asociadas, es decir, varias líneas de registro de un mismo producto con diferentes monedas, a continuación se explica el comportamiento del esquema de descuentos en ADempiere.
 
 1. Ubique en el menú de ADempiere la carpeta "**Gestión de Materiales**", luego seleccione la carpeta "**Reglas de Gestión de Materiales**", por último seleccione la ventana "**Esquema de Descuentos**".
 
