@@ -2,11 +2,47 @@
 
 ## **Preámbulo**
 
-Las retenciones de impuesto al valor agregado (IVA), en Venezuela son impuestos aplicados a un documento y retenidos por el cliente de la empresa que genera dicho documento. ADempiere permite aplicar el IVA a los documentos conforme a lo estipulado en la ley que establece el impuesto al valor agregado vigente en Venezuela, así como también aplicar la retención de un porcentaje o la totalidad del IVA aplicado a un documento determinado.
+Las retenciones de Impuesto al Valor Agregado (IVA) en Venezuela son impuestos aplicados a productos o servicios gravados de un documento por pagar, por su parte, la retención de IVA comprende un resguardo de los impuestos generados en el pasivo que deben efectuar los contribuyentes, posteriormente según el calendario contemplado en el Portal del SENIAT declarar el acumulado de las retenciones generadas durante el periodo quincenal.
 
-El presente documento elaborado por la empresa ERPyA pretende explicar a los usuarios el procedimiento para configurar y aplicar las retenciones de IVA a los documentos en la versión 3.9.2 de ADempiere en la localización Venezuela.
+ADempiere permite auto-generar una estimación de retenciones de IVA a los documentos conforme a la legislación venezolana vigente y finalmente la generación del crédito a la factura, es decir la retención definitiva que rebajará el pasivo.
 
-## **Selección de las Retenciones por Socio del Negocio**
+Estas bondades de ADempiere dependerán de la oportuna configuración del proveedor en el cual debe indicar el porcentaje de retención del IVA a aplicar al proveedor, el mismo puede ser un 75% del tributo causado o podrá incluso ser del 100% en los casos que expresamente están previstos en el artículo 5 de la Providencia Administrativa SNAT/2015/0049, así mismo existen casos en los que los proveedores son exonerados de la retención de IVA, para lo cual ADempiere contempla la exoneración del mismo a los socios de negocios.
+
+El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para configurar y obtener un resultado exitoso al momento de generar la estimación de retenciones y posteriormente el documento de retención de IVA en la versión 3.9.2 de ADempiere en la localización Venezuela.
+
+## **Configuración Esencial**
+
+La configuración esencial de las retenciones en ADempiere, permite que sea ejecutada la estimación de la retención a un socio del negocio proveedor al completar el documento de cuentas por pagar en ADempiere, la misma consta de dos procesos explicados a continuación.
+
+### **Configuración de la Tasa de Impuesto**
+
+La aplicación de retención de IVA en un documento de cuentas por pagar parte de la selección de IVA en el campo "**Impuesto**", el mismo debe ser configurado desde la ventana "**Tasa de Impuesto**", o acercando dicho campo en la línea de la factura. Para que se ejecute la estimación de la retención, es necesario configurar la tasa de impuesto.
+
+1. Ubique en el menú de ADempiere la carpeta "**Análisis de Desempeño**", luego seleccione la carpeta "**Reglas Contables**", por último seleccione la ventana "**Tasa de Impuesto**".
+
+![Menú de ADempiere](../resources/menutasa.png "Menú de ADempiere")
+
+1. Podrá apreciar la ventana "**Tasa de Impuesto**" con los diferentes registros de impuesto de IVA y sus diferentes porcentajes de retención.
+
+![Ventana Tasa de Impuesto](../resources/ventanatasa.png "Ventana Tasa de Impuesto")
+
+1. Ubique el impuesto a aplicar al documento por pagar, para este ejemplo el impuesto es "**IVA 16% (Ingreso)**".
+
+![Registro de Impuesto de IVA](../resources/registrotasa.png "Registro de Impuesto de IVA")
+
+1. Tilde el checklist "**Retención Aplicada**", para que ejecute la estimación de retención al completar el documento por pagar.
+
+![Checklist Retención Aplicada](../resources/tildartasa.png "Checklist Retención Aplicada")
+
+1. Seleccione el icono "**Guardar**" en la barra de herramientas de ADempiere.
+
+![Icono Guardar](../resources/guardartasa.png "Icono Guardar")
+
+!!! warning "**Importante**"
+
+    Este proceso debe ser realizado cada vez que se vaya a aplicar un impuesto de IVA diferente en cada documento por pagar.
+
+### **Configuración del Socio de Negocio**
 
 ADempiere permite seleccionar por socio del negocio el porcentaje de IVA a aplicar en los documentos de compra/venta del mismo, a continuación se explica el procedimiento para seleccionar el IVA en un socio del negocio determinado.
 
@@ -46,7 +82,7 @@ ADempiere permite seleccionar por socio del negocio el porcentaje de IVA a aplic
 
     Solo debe tildar la retención que no se aplicará al socio del negocio proveedor que esta configurando y guarde los cambios realizados en el socio del negocio con ayuda del icono "**Guardar Cambios**" de la barra de herramientas de ADempiere.
 
-## **Selección de Retenciones a Aplicar en un Documento**
+## **Ejecución de la Estimación de Retenciones**
 
 1. Ubique la factura ya realizada al socio del negocio, la misma debe estar en estado "**Completo**", para este ejemplo se utiliza la factura número "**1000034**" del socio del negocio proveedor "**Standard Standard**".
 
@@ -76,7 +112,7 @@ ADempiere permite seleccionar por socio del negocio el porcentaje de IVA a aplic
 
     ADempiere le genera al usuario por medio del icono "**Visualiza Detalle**", las alertas donde indica cuales fueron las retenciones aplicadas (**Retención Generada**) y cuales retenciones no fueron aplicadas (**Log**) según la configuración que tiene un socio del negocio determinado.
 
-## **Generar Retenciones a un Socio del Negocio Proveedor**
+## **Generación de la Retención de IVA Fiscal**
 
 1. Ubique la carpeta "**Manejo de Retenciones**" en el menú de ADempiere, luego seleccione la ventana de busqueda inteligente "**Generar Retenciones**".
 
