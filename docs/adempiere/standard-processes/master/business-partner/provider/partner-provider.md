@@ -22,11 +22,11 @@ En esta ventana se registran los datos principales del socio del negocio. Cada u
     
     1. Seleccione en el campo "**Organización**", la organización para la cual se esta registrando el socio del negocio proveedor.
 
-        ![ADempiere](../img/organizacion.png "Ventana de Registro de Socio del Negocio")
+        ![ADempiere](../img/organizacion.png "Ventana de Registro del Socio del Negocio")
 
         !!! warning "**Importante**"
 
-            Para que el socio de negocio este disponible para todas las organizaciones, el mismo deberá estar registrado con la organización en (*) de lo contrario el socio del negocio solo estará disponible para una sola organización. 
+            Para que el socio del negocio este disponible para todas las organizaciones de la compañía, el mismo deberá estar registrado con la organización en (*) de lo contrario el socio del negocio solo estará disponible para una sola organización. 
     
     1. Introduzca el código de identificación, cédula o rif del socio del negocio en el campo "**Código**", el valor introducido en este campo automáticamente se reflejará en el campo "**Número Identificación**".
         
@@ -44,6 +44,10 @@ En esta ventana se registran los datos principales del socio del negocio. Cada u
 
         ![ADempiere](../img/grupo.png "Ventana de Registro de Socio del Negocio")
 
+    1. Seleccione en el campo "**Tipo de Persona**, el tipo de persona al que pertenece el socio del negocio que se esta registrando, este campo obligatorio permite la configuración esencial de las retenciones a generar al mismo.
+
+        ![ADemmpiere](../img/tipopers.png "Ventana de Registro de Socio del Negocio") 
+
     1. Seleccione el icono "**Guardar Cambios**" ubicado en la barra de herramientas para guardar los datos ingresados.
 
 !!! warning "**Importante**"
@@ -54,17 +58,49 @@ En esta ventana se registran los datos principales del socio del negocio. Cada u
 
 Esta pestaña le indica a ADempiere si el socio del negocio que se esta registrando es un proveedor. 
 
-1. Seleccione la pestaña "**Proveedor**" que se encuentra del lado izquierdo de la ventana socio del negocio. 
+1. Seleccione la pestaña "**Proveedor**" que se encuentra del lado izquierdo de la ventana principal "**Socio del Negocio**". 
 
     ![ADempiere](../img/pestproveedor.png "Ventana de Registro de Socio del Negocio")
 
-1. A continuación visualizará la siguiente imagen, dónde debe tildar el checklist "**Proveedor**". 
+    !!! info "La pestaña "**Proveedor**" se compone de:"
 
-    ![ADempiere](../img/checklist.png "Ventana de Registro de Socio del Negocio")
+        - Un checklist "**Proveedor**".
+        
+        - Los datos principales del socio del negocio donde los campos "**Compañía**", "**Organización**", "**Código**" y "**Nombre**", vienen cargados de la ventana principal "**Socio del Negocio**". 
+        
+        - Ademas posee un grupo de campos que definen la configuración de retenciones a aplicar al socio del negocio, dichos campos se encuentran explicados en los documentos ["**Retenciones IVA**"](), ["**Retenciones ISLR**"]() y ["**Retenciones Municipales**"]().
 
-!!! warning "**Importante**"
+1. Seleccione el checklist "**Proveedor**" para habilitar en ADempiere el socio del negocio como proveedor de la compañía u organización. 
 
-    De no ser tildado el checklist "**Proveedor**", ADempiere no tomará el socio de negocio como proveedor. 
+    ![ADempiere](../img/checklist.png "Ventana de Registro del Socio del Negocio")
+
+    !!! warning "**Importante**"
+
+        De no ser tildado el checklist "**Proveedor**", ADempiere no tomará el socio del negocio como proveedor.
+
+1. Al tildar el checklist "**Proveedor**" podrá apreciar un grupo de campos necesarios para la compra de productos al mismo, dichos campos no son obligatorios ya que pueden ser definidos en el documento "**Orden de Compra**" al momento de su elaboración.
+
+    ![ADempiere](../img/campos.png "Ventana de Registro de Socio del Negocio")
+
+    1. El campo "**Regla de Pago**" establece la regla de pago definitiva para las compras al socio del negocio proveedor que se esta registrando, para este ejemplo la regla de pago utilizada es "**A Crédito**". 
+
+        ![ADempiere](../img/regla.png "Ventana de Registro de Socio del Negocio")
+
+    1. El campo "**Lista de Precios de Compra**" establece la lista de precios definitiva para las compras al socio del negocio proveedor que se esta registrando, para este ejemplo la lista de precios utilizada es "**Compra (VES)**".
+
+        ![ADempiere](../img/lista.png "Ventana de Registro de Socio del Negocio")
+
+    1. El campo "**Término Pago Orden de Compra**" establece el término de pago definitivo para las compras al socio del negocio proveedor que se esta registrando, para este ejemplo el término de pago utilizado es "**Crédito a 15 días**".
+
+        ![ADempiere](../img/termino.png "Ventana de Registro de Socio del Negocio")
+
+    1. El campo "**Esquema del Descuento en OC**" establece el descuento definitivo para las compras al socio del negocio proveedor que se esta registrando, para este ejemplo el esquema de descuento utilizado es "**Compras Porcentaje Simple**".
+
+        ![ADempiere](../img/esq.png "Ventana de Registro de Socio del Negocio")
+
+    1. El campo "**Exento de (IGTF)**" establece que no se aplicará el impuesto "**IGTF**" al socio del negocio proveedor que se esta registrando
+
+        ![ADempiere](../img/igtf.png "Ventana de Registro de Socio del Negocio")
 
 ##### **Pestaña Cuenta Bancaria**
 
