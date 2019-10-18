@@ -34,7 +34,7 @@ En esta ventana se registran los datos principales del socio del negocio. Cada u
     
         !!! warning "**Importante**"
 
-            Se recomienda que al ingresar el valor al campo "**Código**" se ingrese principalmente el prefijo que le corresponde según el tipo de registro que tenga el socio del negocio (jurídico, natural, entre otros).
+            Se recomienda que al ingresar el valor al campo "**Código**" no se ingrese ningún prefijo, punto, guion o cualquier otro carácter.
 
     1. Introduzca el nombre del socio del negocio proveedor en el campo "**Nombre**".
 
