@@ -30,6 +30,8 @@ nav:
                     - Cierre de Autorización de Devolución de Cliente: 'adempiere/standard-processes/returns/customer-return/customer-return.md'
                 - Gestión de Materiales: 
                     - Esquema de Descuentos: 'adempiere/standard-processes/material-management/discount-schema/discount-schema.md'
+                - Gestión de Retenciones: 
+                    - Retención Multimoneda: 'adempiere/standard-processes/withholding-currency/withholding-currency.md/'
             - Versión 3.9.2:
                 - Socio del Negocio:
                     - Ciente: 'adempiere/standard-processes/master/business-partner/client/client.md'
