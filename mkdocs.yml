@@ -25,6 +25,11 @@ nav:
                 - Gestión de Ventas:
                     - Cuentas por Cobrar (CxC):
                         - CxC en Dolares: 'adempiere/standard-processes/invoice-customer/foreign-currency/foreign-currency.md'
+                - Gestión de Devoluciones: 
+                    - Autorización de Devolución a Proveedor desde Recepción con más de una Factura: 'adempiere/standard-processes/returns/invoice-line/invoice-line.md'
+                    - Cierre de Autorización de Devolución de Cliente: 'adempiere/standard-processes/returns/customer-return/customer-return.md'
+                - Gestión de Materiales: 
+                    - Esquema de Descuentos: 'adempiere/standard-processes/material-management/discount-schema/discount-schema.md'
             - Versión 3.9.2:
                 - Socio del Negocio:
                     - Ciente: 'adempiere/standard-processes/master/business-partner/client/client.md'
@@ -34,13 +39,8 @@ nav:
                     - Orden de Compra: 'adempiere/standard-processes/purchase-order/direct-order/purchase-order.md'
                     - Documentos por Pagar: 'adempiere/standard-processes/invoice/invoice.md'
                     - Recepción de Productos: 'adempiere/standard-processes/material-receipt/receipt.md'
-                - Gestión de Devoluciones: 
-                    - Autorización de Devolución a Proveedor desde Recepción con más de una Factura: 'adempiere/standard-processes/returns/invoice-line/invoice-line.md'
-                    - Cierre de Autorización de Devolución de Cliente: 'adempiere/standard-processes/returns/customer-return/customer-return.md'
                 - Gestión de Saldos Pendientes:
                     - Conciliaciones Automáticas: 'adempiere/standard-processes/automatic-conciliations/concept.md'
-                - Gestión de Materiales: 
-                    - Esquema de Descuentos: 'adempiere/standard-processes/material-management/discount-schema/discount-schema.md'
         - Verticales:
             - Manejo de Préstamos:
                 - Requerimientos: 'adempiere/vertical/loan-management/loan-requirements.md'
