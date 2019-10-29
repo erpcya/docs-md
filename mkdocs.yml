@@ -25,6 +25,11 @@ nav:
                 - Gestión de Ventas:
                     - Cuentas por Cobrar (CxC):
                         - CxC en Dolares: 'adempiere/standard-processes/invoice-customer/foreign-currency/foreign-currency.md'
+                - Gestión de Devoluciones: 
+                    - Autorización de Devolución a Proveedor desde Recepción con más de una Factura: 'adempiere/standard-processes/returns/invoice-line/invoice-line.md'
+                    - Cierre de Autorización de Devolución de Cliente: 'adempiere/standard-processes/returns/customer-return/customer-return.md'
+                - Gestión de Materiales: 
+                    - Esquema de Descuentos: 'adempiere/standard-processes/material-management/discount-schema/discount-schema.md'
             - Versión 3.9.2:
                 - Socio del Negocio:
                     - Ciente: 'adempiere/standard-processes/master/business-partner/client/client.md'
