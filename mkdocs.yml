@@ -41,6 +41,8 @@ nav:
                     - Orden de Compra: 'adempiere/standard-processes/purchase-order/direct-order/purchase-order.md'
                     - Documentos por Pagar: 'adempiere/standard-processes/invoice/invoice.md'
                     - Recepción de Productos: 'adempiere/standard-processes/material-receipt/receipt.md'
+                - Gestión de Devoluciones:
+                    - Devolución de Cliente: 'adempiere/standard-processes/returns/order-return/order-return.md'
                 - Gestión de Saldos Pendientes:
                     - Conciliaciones Automáticas: 'adempiere/standard-processes/automatic-conciliations/concept.md'
         - Verticales:
