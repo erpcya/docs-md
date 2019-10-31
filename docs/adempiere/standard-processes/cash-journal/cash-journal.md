@@ -2,6 +2,8 @@
 
 ## **Preámbulo**
 
+El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar una "**Asignación de Depósito y Caja Multimoneda**", en la versión 3.7.0 de ADempiere. El cambio fue realizado en ADempiere con la finalidad de realizar la conversión de la moneda que posee la factura a la moneda que posee la caja cobranza creada.
+
 ## **Asignación de Depósito y Caja Multimoneda**
 
 1. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Caja**", por último seleccione la ventana "**Diario de Caja Chica**".
