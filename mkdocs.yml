@@ -33,7 +33,7 @@ nav:
                 - Gestión de Materiales: 
                     - Esquema de Descuentos: 'adempiere/standard-processes/material-management/discount-schema/discount-schema.md'
                 - Gestión de Retenciones: 
-                    - Retención Multimoneda: 'adempiere/standard-processes/withholding-currency/withholding-currency.md/'
+                    - Retención Multimoneda: 'adempiere/standard-processes/withholding-currency/withholding-multi-currency.md/'
             - Versión 3.9.2:
                 - Socio del Negocio:
                     - Ciente: 'adempiere/standard-processes/master/business-partner/client/client.md'
