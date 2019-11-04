@@ -1,10 +1,10 @@
-# **Asignación de Depósito y Caja Multimoneda**
+# **Cobranza en Multimoneda**
 
 ## **Preámbulo**
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar una "**Asignación de Depósito y Caja Multimoneda**", en la versión 3.7.0 de ADempiere. El cambio fue realizado en ADempiere con la finalidad de realizar la conversión de la moneda que posee la factura a la moneda que posee la caja cobranza creada.
+El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar una "**Cobranza en Multimoneda**", en la versión 3.7.0 de ADempiere. El cambio fue realizado en ADempiere con la finalidad de realizar una cobranza en multimoneda, es decir, una cobranza con moneda diferente a la moneda de la factura, realizando la conversión del monto de la factura a la moneda seleccionada para realizar la cobranza.
 
-## **Asignación de Depósito y Caja Multimoneda**
+## **Cobranza en Multimoneda**
 
 1. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Caja**", por último seleccione la ventana "**Diario de Caja Chica**".
 
@@ -13,6 +13,10 @@ El presente material elaborado por ERPyA pretende ofrecerle una explicación efi
 1. Seleccione el icono "**Registro Nuevo**", en la barra de herramientas de ADempiere.
 
     ![ADempiere](../resources/nuevo.png "Ventana Reembolso Diario de Caja Chica")
+
+    !!! warning "**Importante**"
+
+        Es necesario que la tasa de conversión se encuentre actualizada y de acuerdo al tipo de conversión predeterminado, ya que la conversión configurada en la cobranza toma el tipo de conversión predeterminado.
 
 1. Luego de realizar el proceso regular de llenado de los campos principales, seleccione la opción "**Crear desde Factura**".
 
@@ -44,7 +48,7 @@ El presente material elaborado por ERPyA pretende ofrecerle una explicación efi
 
             !!! warning "**Importante**"
 
-                Al buscar una factura emitida con una moneda diferente a la moneda seleccionada en la ventana principal "**Reembolso Diario de Caja Chica**", ADempiere realiza la conversión del monto de la factura a la moneda seleccionada para realizar la cobranza.
+                Al buscar una factura emitida con una moneda diferente a la moneda seleccionada en la cobranza, ADempiere realiza la conversión del monto de la factura a la moneda seleccionada para el cobro.
 
         1. Seleccione la factura en la que el socio del negocio cliente esta abonando o cancelando un monto, para este ejemplo la factura a seleccionar es la número "**SERIE A -157637**".
 
@@ -78,3 +82,6 @@ El presente material elaborado por ERPyA pretende ofrecerle una explicación efi
 
         ![ADempiere](../resources/accion.png "Ventana Reembolso Diario de Caja Chica")
 
+!!! note "**Nota**" 
+
+    Al realizar una consulta de los saldos abiertos del socio del negocio, se pueden visualizar los saldos de las facturas en sus respectivas monedas. Adicional a ello, se puede apreciar en el campo "**Total Pagado**", el monto pagado de la factura utilizada para el ejemplo con su respectiva moneda de emisión, a pesar de que la cobranza fue en una moneda diferente.
