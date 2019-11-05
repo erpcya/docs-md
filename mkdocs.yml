@@ -32,7 +32,7 @@ nav:
                     - Asignación de Depósito y Caja Multimoneda: 'adempiere/standard-processes/cash-journal/cash-journal.md'
                 - Gestión de Materiales: 
                     - Esquema de Descuentos: 'adempiere/standard-processes/material-management/discount-schema/discount-schema.md'
-                - Gestión de Retenciones: 
+                - Gestión de Retenciones:
                     - Retención Multimoneda: 'adempiere/standard-processes/withholding-currency/withholding-multi-currency.md/'
             - Versión 3.9.2:
                 - Socio del Negocio:
