@@ -2,7 +2,7 @@
 
 ## **Preámbulo**
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar una "**Devolución de Cliente**" en la versión 3.9.2 de ADempiere en la localización Venezuela. Dicho proceso de devolución es realizado generando un documento de autorización de devolución y porterior a ello los documentos de devolución y nota de crédito correspondientes, mismos necesarios para reflejar el ingreso de los productos vendidos al almacén de la empresa.
+El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar una "**Devolución de Cliente**" en la versión 3.9.2 de ADempiere en la localización Venezuela. Dicho proceso de devolución es realizado generando un documento de autorización de devolución y porterior a ello, los documentos de devolución y nota de crédito correspondientes, los mismos son necesarios para reflejar el ingreso de los productos al almacén y disminuir el saldo de la factura.
 
 ## **Autorización de Devolución (Cliente)**
 
@@ -116,7 +116,7 @@ El presente material elaborado por ERPyA pretende ofrecerle una explicación efi
 
     ![ADempiere](../resources/seleccion2.png "Devolución (Cliente)")
 
-1. Verifique que el campo "**Acción del Documento**" diga "**Completar**", de esta manera el documento "**Devolución (Cliente)**" será generado en estado "**Completo**".
+1. Se mostrará las opciones del campo "**Acción de Documento**", como se visualiza en este ejemplo la acción "**Completar**", de esta manera se generará el documento con estado "**Completo**".
 
     ![ADempiere](../resources/completar2.png "Devolución (Cliente)")
 
@@ -134,7 +134,7 @@ El presente material elaborado por ERPyA pretende ofrecerle una explicación efi
 
 !!! note "**Nota**"
 
-    La elaboración de este proceso permite a ADempiere ingresar nuevamente los productos seleccionados en el documento, al almacén de la empresa.
+    La elaboración de este proceso permite ingresar nuevamente los productos seleccionados anteriormente al almacén de la empresa.
 
 ## **Nota de Crédito por Devolución (Cliente)**
 
@@ -158,7 +158,7 @@ El presente material elaborado por ERPyA pretende ofrecerle una explicación efi
 
     ![ADempiere](../resources/selec3.png "Nota de Crédito por Devolución (Cliente)")
 
-1. Verifique que el campo "**Acción del Documento**" tenga seleccionada la acción "**Completar**", de esta manera el documento "**Nota de Crédito por Devolución (Cliente)**" será generado en estado "**Completo**".
+1. Se mostrará las opciones del campo "**Acción de Documento**", como se visualiza en este ejemplo la acción "**Completar**", de esta manera se generará el documento con estado "**Completo**".
 
     ![ADempire](../resources/completar3.png "Nota de Crédito por Devolución (Cliente)")
 
@@ -188,6 +188,13 @@ El presente material elaborado por ERPyA pretende ofrecerle una explicación efi
 
 ## **Consultar Saldos Abiertos**
 
-1. Al consultar saldos abiertos se verifica que el resulta es el siguiente.
+1. Al consultar saldos abiertos se verifica que la nota de crédito haya sido aplicada a la factura, generando con ello un descuento al saldo abierto del socio del negocio de la siguiente manera.
 
     ![ADempiere](../resources/saldos.png "Saldos Abiertos")
+    
+## **Consultar Detalle de Transacciones**
+
+1. Al consultar los detalles de transacciones se verifican los movimientos de salida de productos por medio de una entrega, generando con ello un descuento al total de productos. De igual manera es reflejada la entrada del mismo producto por medio de una devolución de cliente, generando con ello un aumento al total de productos en existencia.
+
+    ![ADempiere](../resources/trans.png "Detalle de Transacciones")
+    
