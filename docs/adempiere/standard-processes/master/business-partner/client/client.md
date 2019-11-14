@@ -454,15 +454,19 @@ En esta pestaña se registran todos los datos de contacto que se posea el socio 
 
     ![ADempiere](../resources/contacto.png "Pestaña Contacto")
 
-    1. Introduzca en el campo "**Nombre**", el nombre completo del socio del negocio cliente que esta registrando.
+    !!! warning "**Importante**"
+
+        El contacto (Usuario) permite registrar las diferentes personas de contacto que tiene la empresa con el socio del negocio cliente que esta registrando. Un ejemplo de esta pestaña puede ser, un jefe o persona de contacto por departamento para que a la hora de alguna venta de productos o servicios al socio del negocio cliente, se contacte a la persona correspondiente.
+
+    1. Introduzca en el campo "**Nombre**", el nombre completo de la persona de contacto con el socio del negocio cliente que esta registrando.
 
         ![ADempiere](../resources/nomcontacto.png "Pestaña Contacto")
 
-    1. Introduzca en el campo "**Descripción**", una breve descripción del socio del negocio cliente que esta registrando.
+    1. Introduzca en el campo "**Descripción**", una breve descripción de la persona de contacto con el socio del negocio cliente que esta registrando.
 
         ![ADempiere](../resources/descricliente.png "Pestaña Contacto")
 
-    1. Introduzca en el campo "**Comentarios**", los comentarios o información adicional sobre el registro del socio del negocio cliente.
+    1. Introduzca en el campo "**Comentarios**", los comentarios o información adicional sobre el registro de la persona de contacto con el socio del negocio cliente.
 
         ![ADempiere](../resources/comentario.png "Pestaña Contacto")
 
@@ -470,11 +474,11 @@ En esta pestaña se registran todos los datos de contacto que se posea el socio 
 
         ![ADempiere](../resources/activo.png "Pestaña Contacto")
 
-    1. Seleccione el checklist "**Es Gerente de Proyecto**", para indicar que el socio del negocio cliente es gerente de proyecto.
+    1. Seleccione el checklist "**Es Gerente de Proyecto**", para indicar que la persona de contacto con el socio del negocio cliente es gerente de proyecto.
 
         ![ADempiere](../resources/gerente.png "Pestaña Contacto")
 
-    1. Seleccione el checklist "**Es Miembro de un Proyecto**", para indicar que el socio del negocio cliente es miembro de un proyecto.
+    1. Seleccione el checklist "**Es Miembro de un Proyecto**", para indicar que la persona de contacto con el socio del negocio cliente es miembro de un proyecto.
 
         ![ADempiere](../resources/miembro.png "Pestaña Contacto")
 
@@ -482,11 +486,11 @@ En esta pestaña se registran todos los datos de contacto que se posea el socio 
 
         ![ADempiere](../resources/usuario.png "Pestaña Contacto")
 
-        1. Seleccione el checklist "**Usuario Interno**", para indicar que el socio del negocio cliente es usuario interno.
+        1. Seleccione el checklist "**Usuario Interno**", para indicar que la persona de contacto con el socio del negocio cliente es usuario interno.
 
             ![ADempiere](../resources/interno.png "Pestaña Contacto")
 
-        1. Introduzca en el campo **Código**, el usuario del socio del negocio cliente para ingresar a ADempiere. 
+        1. Introduzca en el campo **Código**, el usuario de la persona de contacto con el socio del negocio cliente para ingresar a ADempiere. 
 
             ![ADempiere](../resources/nomusuario.png "Pestaña Contacto")
 
@@ -494,7 +498,7 @@ En esta pestaña se registran todos los datos de contacto que se posea el socio 
 
                 ERP tiene establecido como estándar de creación de usuario y contraseña en ADempiere, la inicial del primer nombre en minúscula, seguido del primer apellido completo, con la primera letra del mismo en mayúscula.
 
-        1. Introduzca en el campo "**Contraseña**", la contraseña del socio del negocio cliente para ingresar a ADempiere.
+        1. Introduzca en el campo "**Contraseña**", la contraseña de la persona de contacto con el socio del negocio cliente para ingresar a ADempiere.
 
             ![ADempiere](../resources/claveusuario.png "Pestaña Contacto")
 
@@ -502,35 +506,35 @@ En esta pestaña se registran todos los datos de contacto que se posea el socio 
 
                 ERP tiene establecido como estándar de creación de usuario y contraseña en ADempiere, la inicial del primer nombre en minúscula, seguido del primer apellido completo, con la primera letra del mismo en mayúscula.
 
-        1. Seleccione el checklist "**Usuario de Tienda Web**", para indicar que el socio del negocio es usuario de tienda web.
+        1. Seleccione el checklist "**Usuario de Tienda Web**", para indicar que la persona de contacto con el socio del negocio es usuario de tienda web.
 
             ![ADempiere](../resources/tienda.png "Pestaña Contacto")
 
-    1. Introduzca en el campo "**Email**", el correo electrónico del socio del negocio contacto para las transacciones entre las empresas.
+    1. Introduzca en el campo "**Email**", el correo electrónico de la persona de contacto con el socio del negocio para las transacciones entre las empresas.
 
         ![ADempiere](../resources/email.png "Pestaña Contacto")
 
-    1. Seleccione en el campo "**Saludo**", la forma de saludar al socio del negocio en los documentos a ser enviados.
+    1. Seleccione en el campo "**Saludo**", la forma de saludar a la persona de contacto con el socio del negocio en los documentos a ser enviados.
 
         ![ADempiere](../resources/saludo.png "Pestaña Contacto")
 
-    1. Seleccione en el campo "**Dirección del Socio del Negocio**, la dirección de ubicación del socio del negocio.
+    1. Seleccione en el campo "**Dirección del Socio del Negocio**, la dirección de ubicación de la persona de contacto con el socio del negocio.
 
         ![ADempiere](../resources/direcontacto.png "Pestaña Contacto")
 
-    1. Introduzca en el campo "**Título**", el nombre del socio del negocio.
+    1. Introduzca en el campo "**Título**", el nombre del socio del negocio cliente.
 
         ![ADempiere](../resources/titulo.png "Pestaña Contacto")
 
-    1. Seleccione en el campo "**Cumpleaños**", la fecha de nacimiento del socio del negocio.
+    1. Seleccione en el campo "**Cumpleaños**", la fecha de nacimiento de la persona de contacto con el socio del negocio.
 
         ![ADempiere](../resources/cumple.png "Pestaña Contacto")
 
-    1. Introduzca en el campo "**Teléfono**", el teléfono de contacto del socio del negocio para las transacciones entre las empresas.
+    1. Introduzca en el campo "**Teléfono**", el teléfono para localizar a la persona de contacto con el socio del negocio para las transacciones entre las empresas.
 
         ![ADempiere](../resources/tlf.png "Pestaña Contacto")
 
-    1. Introduzca en el campo "**Teléfono Móvil**", el teléfono móvil de contacto del socio del negocio.
+    1. Introduzca en el campo "**Teléfono Móvil**", el teléfono móvil para localizar a la persona de contacto con el del socio del negocio.
 
         ![ADempiere](../resources/movil.png "Pestaña Contacto")
 
@@ -538,15 +542,15 @@ En esta pestaña se registran todos los datos de contacto que se posea el socio 
 
         ![ADempiere](../resources/faxcontacto.png "Pestaña Contacto")
 
-    1. Seleccione en el campo "**Tipo de Notificación**", la forma de enviar notificaciones al socio del negocio.
+    1. Seleccione en el campo "**Tipo de Notificación**", la forma de enviar notificaciones a la persona de contacto con el socio del negocio.
 
         ![ADempiere](../resources/notificacion.png "Pestaña Contacto")
 
-    1. Seleccione en el campo "**Posición**", la posición de trabajo del socio del negocio.
+    1. Seleccione en el campo "**Posición**", la posición de trabajo de la persona de contacto con el socio del negocio.
 
         ![ADempiere](../resources/posicion.png "Pestaña Contacto")
 
-    1. Podrá apreciar el checklist "**Acceso Total Socio del Negocio**", que al estar tildado indica que el socio del negocio cliente posee acceso total a su rol.
+    1. Podrá apreciar el checklist "**Acceso Total Socio del Negocio**", que al estar tildado indica que la persona de contacto con el socio del negocio cliente posee acceso total a su rol.
 
         ![ADempiere](../resources/acceso.png "Pestaña Contacto")
 
