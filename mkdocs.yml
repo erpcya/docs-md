@@ -34,6 +34,9 @@ nav:
                     - Esquema de Descuentos: 'adempiere/standard-processes/material-management/discount-schema/discount-schema.md'
                 - Gestión de Retenciones:
                     - Retención Multimoneda: 'adempiere/standard-processes/withholding-currency/withholding-multi-currency.md'
+                - Nómina:
+                    - Cancelación de Nómina con Intermediario: 'adempiere/standard-processes/bonus-payment-with-intermediary.md'
+        
             - Versión 3.9.2:
                 - Socio del Negocio:
                     - Ciente: 'adempiere/standard-processes/master/business-partner/client/client.md'
