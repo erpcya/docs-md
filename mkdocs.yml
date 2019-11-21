@@ -20,6 +20,8 @@ nav:
             - Gestión de Recursos Humanos:
                 - Nómina:
                     - Cancelación de Bono con Intermediario: 'lve/human-resource-payroll/payroll/bonus-cancellation-with-intermediary.md'
+                - Recursos Humanos:
+                    - Caja Reembolso: 'lve/human-resource-payroll/human-resource/cash-refund/cash-refund.md'
     - ADempiere:
         - Migración:
             - Pack In: 'adempiere/migration/packin.md'
