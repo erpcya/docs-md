@@ -17,6 +17,9 @@ nav:
         - Documentación:
             - Codificación Estándar:
                 - Producto: 'lve/standard-coding/product/product-coding.md'
+            - Gestión de Recursos Humanos:
+                - Nómina:
+                    - Cancelación de Bono con Intermediario: 'lve/human-resource-payroll/payroll/bonus-cancellation-with-intermediary.md'
     - ADempiere:
         - Migración:
             - Pack In: 'adempiere/migration/packin.md'
