@@ -34,22 +34,22 @@ nav:
                     - Esquema de Descuentos: 'adempiere/standard-processes/material-management/discount-schema/discount-schema.md'
                 - Gestión de Retenciones:
                     - Retención Multimoneda: 'adempiere/standard-processes/withholding-currency/withholding-multi-currency.md'
-                - Nómina:
-                    - Cancelación de Nómina con Intermediario: 'adempiere/standard-processes/bonus-payment-with-intermediary.md'
-        
             - Versión 3.9.2:
                 - Socio del Negocio:
                     - Ciente: 'adempiere/standard-processes/master/business-partner/client/client.md'
                     - Proveedor: 'adempiere/standard-processes/master/business-partner/provider/partner-provider.md'
                     - Empleado: 'adempiere/standard-processes/master/business-partner/employee/employee.md'
                 - Gestión de Compras:
-                    - Orden de Compra: 'adempiere/standard-processes/purchase-order/direct-order/purchase-order.md'
+                    - Orden de Compra: 'a- Nómina:
+                    - Cancelación de Nómina con Intermediario: 'adempiere/standard-processes/bonus-payment-with-intermediary.md'dempiere/standard-processes/purchase-order/direct-order/purchase-order.md'
                     - Documentos por Pagar: 'adempiere/standard-processes/invoice/invoice.md'
                     - Recepción de Productos: 'adempiere/standard-processes/material-receipt/receipt.md'
                 - Gestión de Devoluciones:
                     - Devolución de Cliente: 'adempiere/standard-processes/returns/order-return/order-return.md'
                 - Gestión de Saldos Pendientes:
                     - Conciliaciones Automáticas: 'adempiere/standard-processes/automatic-conciliations/concept.md'
+                - Nómina:
+                    - Cancelación de Nómina con Intermediario: 'adempiere/standard-processes/bonus-payment-with-intermediary.md'
         - Verticales:
             - Manejo de Préstamos:
                 - Requerimientos: 'adempiere/vertical/loan-management/loan-requirements.md'
