@@ -2,41 +2,43 @@
 
 ## **Preámbulo**
 
-Una recepción de productos en ADempiere es el proceso por el cual los productos procedentes de un proveedor llegan al almacén de una compañía u organización determinada.
+Una recepción de productos en ADempiere, es el proceso por el cual los productos procedentes de un proveedor llegan al almacén de una compañía u organización determinada. 
 
-La presente documentación elaborada por la empresa ERPyA, pretende especificar a los usuarios de manera detallada cada uno de los pasos a seguir para elaborar una recepción de productos correctamente.
+Para que se pueda realizar un documento de recepción de una compra realizada, debe existir obligatoriamente un documento de "**Orden de Compra**" o un "**Documento por Pagar**". Sin embargo, para recepcionar productos o servicios obsequiados a la compañía u organización, ADempiere permite que se complete el documento "**Recepción de Productos**" satisfactoriamente. 
+
+El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para elaborar una recepción de productos correctamente en ADempiere, en su versión 3.9.2 para la localización Venezuela.
 
 ## **Recepción de Productos**
 
-1. Ubique en el menú de ADempiere la ventana "**Recepción de Productos**", adjunto imagen para referencia.
+1. Ubique en el menú de ADempiere la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Recepción de Productos**", adjunto imagen para referencia.
 
     ![Menú de ADempiere](../resources/menurecep.png "Menú de ADempiere")
 
-1. Seleccione la opción "**Registro Nuevo**" en la barra de herramientas.
+1. Seleccione la opción "**Registro Nuevo**" en la barra de herramientas de ADempiere, para crear un documento nuevo.
 
     ![Registro Nuevo](../resources/regnuevo.png "Registro Nuevo")
 
-1. Seleccione la organización en el campo "**Organización**".
+1. Seleccione en el campo "**Organización**", la organización para la cual se esta realizando el documento de recepción de productos, el valor en el mismo debe ser diferente del símbolo (*).
 
     ![Campo Organización](../resources/organizacion.png "Campo Organización")
 
-1. Seleccione el tipo de documento destino en el campo "**Tipo de Documento Destino**".
+1. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento [Tipo de Documento]() elaborado por la empresa ERPyA.
 
     ![Campo Tipo de Documento](../resources/tidoc.png "Campo Tipo de Documento")
 
-1. Seleccione la fecha de movimiento en el campo "**Fecha de Movimiento**".
+1. Seleccione en el campo "**Fecha de Movimiento**", la fecha en la que se recepcionaron los productos.
 
     ![Campo Fecha de Movimiento](../resources/fechamov.png "Campo Fecha de Movimiento")
 
-1. Seleccione la fecha contable en el campo "**Fecha Contable**".
+1. Seleccione en el campo "**Fecha Contable**", la fecha de elaboración del documento.
 
     ![Campo Fecha Contable](../resources/fechacon.png "Campo Fecha Contable")
 
-1. Seleccione el socio del negocio en el campo "**Socio del Negocio**".
+1. Seleccione en el campo "**Socio del Negocio**", el socio del negocio proveedor del cual se estan recibiendo los productos.
 
     ![Campo Socio del Negocio](../resources/socio.png "Campo Socio del Negocio")
 
-1. Seleccione el almacén en el campo "**Almacén**".
+1. Seleccione en el campo "**Almacén**", el almacén en que cual se guardarán los productos que se estan recibiendo.
 
     ![Campo Almacén](../resources/almacen.png "Campo Almacén")
 
@@ -44,7 +46,7 @@ La presente documentación elaborada por la empresa ERPyA, pretende especificar 
 
     ![Opción Crear Desde](../resources/creardesde.png "Opción Crear Desde")
 
-    1. Seleccione en el campo "**Crear Desde Tipo**", el tipo de documento desde donde va a crear el documento de recepción. 
+    1. Seleccione en el campo "**Crear Desde Tipo**", el tipo de documento desde donde se va a crear el documento de recepción, para este ejemplo se crea desde tipo "**Factura**". 
 
         ![Campo Crear Desde Tipo](../resources/creardetipo.png "Campo Crear Desde Tipo")
     
@@ -64,7 +66,7 @@ La presente documentación elaborada por la empresa ERPyA, pretende especificar 
 
         ![Opción OK](../resources/ok.png "Opción OK")
     
-1. Seleccione la opción "**Completar**" en el inferior del documento de recepción.
+1. Seleccione la opción "**Completar**" en la parte inferior derecha del documento de recepción de productos.
 
     ![Opción Completar](../resources/opcioncom.png "Opción Completar")
 
