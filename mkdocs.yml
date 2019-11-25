@@ -52,8 +52,6 @@ nav:
                     - Devolución de Cliente: 'adempiere/standard-processes/returns/order-return/order-return.md'
                 - Gestión de Saldos Pendientes:
                     - Conciliaciones Automáticas: 'adempiere/standard-processes/automatic-conciliations/concept.md'
-                - Nómina:
-                    - Cancelación de Nómina con Intermediario: 'adempiere/standard-processes/bonus-payment-with-intermediary.md'
         - Verticales:
             - Manejo de Préstamos:
                 - Requerimientos: 'adempiere/vertical/loan-management/loan-requirements.md'
