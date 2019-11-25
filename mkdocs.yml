@@ -43,6 +43,7 @@ nav:
                     - Proveedor: 'adempiere/standard-processes/master/business-partner/provider/partner-provider.md'
                     - Empleado: 'adempiere/standard-processes/master/business-partner/employee/employee.md'
                 - Gestión de Compras:
+                    - Requisición a Compra: 'adempiere/standard-processes/requisition/requisition.md'
                     - Orden de Compra: 'adempiere/standard-processes/purchase-order/direct-order/purchase-order.md'
                     - Documentos por Pagar: 'adempiere/standard-processes/invoice/invoice.md'
                     - Recepción de Productos: 'adempiere/standard-processes/material-receipt/receipt.md'
