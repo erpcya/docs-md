@@ -28,9 +28,23 @@ Un producto puede tener costos adicionales por flete, servicios de impresión, e
 
     ![Pestaña Costos Adicionales](../resources/pestcostos1.png "Pestaña Costos Adicionales")
         
-    1. Podrá apreciar en el campo "**Distribución de Costo**", que por defecto se encuentra seleccionada la opción "**Cantidad**".
+    1. Podrá apreciar en el campo "**Distribución de Costo**", que por defecto se encuentra seleccionada la opción "**Cantidad**". 
 
         ![Campo Distribución de Costo](../resources/distcosto1.png "Campo Distribución de Costo")
+
+        !!! note "**Nota**"
+
+            Este campo permite establecer con que tipología sera realizada la distribución de costos. ADempiere utiliza cinco (5) tipologías para aplicar la distribución de costo a un producto.
+            
+            - Cantidad.
+            
+            - Costos.
+
+            - Línea.
+
+            - Peso.
+
+            - Volumen. 
 
     1. Seleccione en el campo "**Elemento de Costo**", el costo a aplicar al producto. Para ejemplificar el registro es utilizada la opción "**Costos de Traslado**".
 
@@ -42,13 +56,29 @@ Un producto puede tener costos adicionales por flete, servicios de impresión, e
 
         !!! note "**Nota**"
 
-            Si el documento de recepción posee solo una línea de entrega/recibo, no es necesario seleccionar la línea en el campo "**Línea entrega/recibo**".
+            Este campo define el producto recepcionado al cual se le aplicará la distribución de costo según la tipología seleccionada anteriormente.
 
-            Si el documento de recepción posee más de una línea de entrega/recibo, es necesario seleccionar en el campo "**Línea entrega/recibo**", una línea por registro de la pestaña "**Costos Adicionales**". 
+            - Si el documento de recepción posee solo una línea de entrega/recibo, no es necesario seleccionar la línea en el campo "**Línea entrega/recibo**".
+
+            - Si el documento de recepción posee más de una línea de entrega/recibo, es necesario seleccionar en el campo "**Línea entrega/recibo**", una línea por registro de la pestaña "**Costos Adicionales**". 
 
     1. Seleccione la opción "**Distribución de Costos**", para aplicar el costo adicional al producto de la recepción.
 
         ![Opción Distribución de Costos](../resources/distcosto2.png "Distribución de Costos")
+
+        !!! note "**Nota**"
+
+            Según la tipología seleccionada anteriormente, ADempiere realiza la distribución de costos de la siguiente manera:
+
+            - Cantidad, realiza la distribución dividiendo el costo de la factura entre la cantidad del producto recepcionado.
+            
+            - Costos, realiza la distribución porcentualmente al costo del producto.
+
+            - Línea, realiza la distribución dividiendo el costo de la factura entre el número de líneas que tenga la factura.
+
+            - Peso, realiza la distribución porcentualmente al peso del producto.
+
+            - Volumen, realiza la distribución porcentualmente al volumen del producto. 
 
         1. Podrá visualizar la ventana "**Distribución de Costos**", donde debe seleccionar la opción "**OK**" para aplicar el costo adicional al producto.
 
@@ -64,10 +94,10 @@ Un producto puede tener costos adicionales por flete, servicios de impresión, e
 
 ## **Consultar Costos Adicionales**
 
-1. Ubique en el menú de ADempiere el producto recepcionado, al cual le fue aplicado el costo adicional.  
+1. Ubique en el menú de ADempiere, la carpeta "**Análisis de Desempeño**", luego seleccione la carpeta "**Gestión de Costos**", por último seleccione el reporte "**Detalle Costo del Producto**".  
 
-    ![Ventana Producto](../resources/producto.png "Ventana Producto")
+    ![Ventana Producto](../resources/menu2.png "Ventana Producto")
 
-1. Seleccione la pestaña "**Costos**", donde puede visualizar el registro del costo aplicado.
+1. Podrá visualizar el reporte "**Detalle Costo del Producto**" de la siguiente manera.
 
     ![Pestaña Costo](../resources/costo.png "Pestaña Costo")
